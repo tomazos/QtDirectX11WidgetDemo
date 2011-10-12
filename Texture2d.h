@@ -8,6 +8,10 @@ class Texture2d : public LogWriter
 {
 public:
     ~Texture2d();
+
+    int height();
+    int width();
+
 private:
     friend class SwapChain;
     friend class Device;
