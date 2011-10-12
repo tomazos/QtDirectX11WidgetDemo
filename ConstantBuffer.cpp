@@ -1,14 +1,15 @@
 // (C) 2011, Andrew Tomazos <andrew@tomazos.com>.
 
-#include "VertexBuffer.h"
+#include "ConstantBuffer.h"
 
-VertexBuffer::VertexBuffer(Log* pLog)
+ConstantBuffer::ConstantBuffer(Log* pLog, int iNumBytes)
     : LogWriter(pLog)
     , m_pBuffer(0)
+    , m_iNumBytes(iNumBytes)
 {
 }
 
-VertexBuffer::~VertexBuffer()
+ConstantBuffer::~ConstantBuffer()
 {
     if (m_pBuffer)
         m_pBuffer->Release();

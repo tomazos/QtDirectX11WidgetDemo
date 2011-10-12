@@ -30,7 +30,10 @@ SOURCES += main.cpp\
     ShaderCode.cpp \
     InputLayout.cpp \
     Vertex.cpp \
-    VertexBuffer.cpp
+    VertexBuffer.cpp \
+    IndexBuffer.cpp \
+    ConstantBuffer.cpp \
+    DepthStencilView.cpp
 
 HEADERS  += \
     Log.h \
@@ -55,7 +58,10 @@ HEADERS  += \
     InputLayout.h \
     Vertex.h \
     VertexBuffer.h \
-    Global.h
+    Global.h \
+    IndexBuffer.h \
+    ConstantBuffer.h \
+    DepthStencilView.h
 
 FORMS    += \
     MainWindow.ui
@@ -64,7 +70,14 @@ LIBS += -L"\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" -ldxg
 
 INCLUDEPATH += "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include"
 
-OTHER_FILES += .fx
+OTHER_FILES += *.fx
+
+
+
+
+
+
+
 
 
 

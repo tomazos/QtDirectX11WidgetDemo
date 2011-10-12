@@ -1,14 +1,14 @@
 // (C) 2011, Andrew Tomazos <andrew@tomazos.com>.
 
-#include "VertexBuffer.h"
+#include "IndexBuffer.h"
 
-VertexBuffer::VertexBuffer(Log* pLog)
+IndexBuffer::IndexBuffer(Log* pLog)
     : LogWriter(pLog)
     , m_pBuffer(0)
 {
 }
 
-VertexBuffer::~VertexBuffer()
+IndexBuffer::~IndexBuffer()
 {
     if (m_pBuffer)
         m_pBuffer->Release();

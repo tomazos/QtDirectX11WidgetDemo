@@ -1,3 +1,5 @@
+// (C) 2011, Andrew Tomazos <andrew@tomazos.com>.
+
 #include "ShaderCode.h"
 
 PShaderCode ShaderCode::compile(Log* pLog, const QString& sFilename, const QString& sEntryPoint, const QString& sShaderModel)

@@ -1,3 +1,5 @@
+// (C) 2011, Andrew Tomazos <andrew@tomazos.com>.
+
 #include "VertexShader.h"
 
 VertexShader::VertexShader(Log* pLog)

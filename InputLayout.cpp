@@ -1,3 +1,5 @@
+// (C) 2011, Andrew Tomazos <andrew@tomazos.com>.
+
 #include "InputLayout.h"
 
 InputLayout::InputLayout(Log* pLog)

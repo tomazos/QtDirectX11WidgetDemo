@@ -1,3 +1,5 @@
+// (C) 2011, Andrew Tomazos <andrew@tomazos.com>.
+
 #ifndef LOGWRITER_H
 #define LOGWRITER_H
 

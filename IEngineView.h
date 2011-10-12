@@ -1,3 +1,5 @@
+// (C) 2011, Andrew Tomazos <andrew@tomazos.com>.
+
 #ifndef IENGINEVIEW_H
 #define IENGINEVIEW_H
 

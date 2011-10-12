@@ -1,5 +1,6 @@
-#include "Adapter.h"
+// (C) 2011, Andrew Tomazos <andrew@tomazos.com>.
 
+#include "Adapter.h"
 #include "Device.h"
 
 Adapter::Adapter(Log* pLog, IDXGIAdapter1* pAdapter)

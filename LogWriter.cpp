@@ -1,3 +1,5 @@
+// (C) 2011, Andrew Tomazos <andrew@tomazos.com>.
+
 #include "LogWriter.h"
 
 LogWriter::LogWriter(Log* pLog)

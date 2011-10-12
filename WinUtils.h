@@ -1,3 +1,5 @@
+// (C) 2011, Andrew Tomazos <andrew@tomazos.com>.
+
 #ifndef WINUTILS_H
 #define WINUTILS_H
 
@@ -11,7 +13,6 @@ public:
     static QString WinUtils::stringify(LPTSTR str);
     static QString WinUtils::stringify(HRESULT hresult);
 };
-
 
 class DestringifyLPTSTR
 {

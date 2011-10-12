@@ -1,3 +1,5 @@
+// (C) 2011, Andrew Tomazos <andrew@tomazos.com>.
+
 #ifndef VERTEXSHADER_H
 #define VERTEXSHADER_H
 
