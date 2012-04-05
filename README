@@ -1,0 +1,6 @@
+QtDirectX11WidgetDemo
+---------------------
+(C) Andrew Tomazos <andrew@tomazos.com> 2011
+
+This is a demo of using a DirectX Direct3D pipeline and shader to display 3d graphics in a QWidget.
+
